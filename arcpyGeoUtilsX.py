@@ -203,7 +203,7 @@ class SmallProjectsGISprocessing:
             # Handle the error or re-raise
             raise
         
-    def _prepareRasterWithStream_internal(pathIn, clipped_raster_path, contour_interval, stream_shapefile, accumulation_threshold):
+    def _prepareRasterWithStream_internal(self, pathIn, clipped_raster_path, contour_interval, stream_shapefile, accumulation_threshold):
         """
         Integrates a river network into DEM and processes it for watershed delineation.
         
